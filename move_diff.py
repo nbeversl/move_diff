@@ -1,3 +1,5 @@
+import os
+
 class MoveDiffWithFile:
 
     name = ["MOVE_FILE_WITH_DIFF"]
