@@ -11,7 +11,7 @@ class MoveDiffWithFile:
         old_history_file = os.path.join(
             os.path.dirname(old_filename), 
             '_diff',
-            os.path.basename(old_filename))
+            os.path.basename(old_filename) + '.diff')
         
         if os.path.exists(old_history_file):
             if not os.path.exists(os.path.join(
